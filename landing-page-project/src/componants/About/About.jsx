@@ -4,7 +4,10 @@ import img2 from "../../assets/Bright Yellow and Black Photographic Fitness Serv
 import "./About.css";
 
 function About() {
+  // State to manage showing more details
   const [showDetails, setShowDetails] = useState(false);
+
+  // Handle "Learn More" click
   const handleLearnMore = () => {
     setShowDetails(true);
   };

@@ -2,9 +2,12 @@ import { useState } from "react";
 import heroImg from "../../assets/Bright Yellow and Black Photographic Fitness Service Website.png";
 import "./HeroSection.css";
 import Popup from "../Popup/Popup";
-import Header from "../Header/Header";
+
 function HeroSection() {
+  // State to manage the popup button
   const [btn, setBtn] = useState(false);
+
+  // Function to handle button click and show popup
   function handleClickBtn() {
     document.body.style.overflow = "hidden";
     document.querySelector("Header").style.display = "none";
@@ -15,6 +18,8 @@ function HeroSection() {
     document.querySelector("Header").style.display = "flex";
     setBtn(false);
   }
+
+  // Inline style for the background image
   const style = {
     backgroundImage: `url(${heroImg})`,
     backgroundSize: "cover",
@@ -29,7 +34,9 @@ function HeroSection() {
       <button onClick={handleClickBtn} className="btn">
         Join Today
       </button>
-      {btn ? <Popup handleCancleBtn={handleCancleBtn} /> : null}
+
+      {/* Popup Component */}
+      {btn && <Popup handleCancleBtn={handleCancleBtn} />}
     </div>
   );
 }

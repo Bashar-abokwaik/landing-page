@@ -43,13 +43,13 @@
     align-items: center;
   }
   .footer .footer-content h2 {
-  font-size: 24px;
-  text-align: center;
-}
-.footer .footer-content p {
-  font-size: 14px;
-}
-.footer .footer-content a {
-  font-size: 14px;
-}
+    font-size: 24px;
+    text-align: center;
+  }
+  .footer .footer-content p {
+    font-size: 14px;
+  }
+  .footer .footer-content a {
+    font-size: 14px;
+  }
 }

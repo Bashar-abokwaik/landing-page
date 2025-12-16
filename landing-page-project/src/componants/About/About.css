@@ -29,7 +29,7 @@
 .about .about-content p {
   font-size: 21px;
   font-weight: 100;
-  font-family: sans-serif ;
+  font-family: sans-serif;
   color: white;
   margin-bottom: 20px;
 }
@@ -70,23 +70,23 @@
   margin-top: 240px;
 }
 @media (max-width: 800px) {
-  .about .img1,.img2{
+  .about .img1,
+  .img2 {
     display: none;
   }
-  .about .about-content{
+  .about .about-content {
     width: 100%;
   }
   .about .about-content h2 {
-  font-size: 50px;
-  margin-bottom: 10px;
-}
-.about .about-content p {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-.about{
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .about .about-content p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .about {
     min-height: fit-content;
     margin-bottom: 10px;
+  }
 }
-}
-

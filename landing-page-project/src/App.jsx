@@ -1,4 +1,3 @@
-// import { useState } from 'react'
 import { services } from "./data";
 import { user } from "./data.js";
 import "./App.css";
@@ -11,6 +10,7 @@ import img from "./assets/cover.png";
 import Footer from "./componants/Footer/Footer.jsx";
 
 function App() {
+  // Inline style for the background image
   const style = {
       backgroundImage: `url(${img})`,
       backgroundSize: "cover",

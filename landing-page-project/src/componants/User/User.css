@@ -12,7 +12,7 @@
 }
 .user:hover {
   transform: scale(1.05);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 .user .user-img-container {
   width: 100%;
@@ -58,14 +58,15 @@
     bottom: 40px;
   }
 }
-.user .user-info p,.user-age {
+.user .user-info p,
+.user-age {
   font-size: 18px;
   font-weight: 100;
-  font-family: sans-serif ;
+  font-family: sans-serif;
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width: 800px) {
   .user {
-  width: 95%;
-}
+    width: 95%;
+  }
 }
